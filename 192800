@@ -18,6 +18,14 @@ Time = <number> - The duration of the notfication.
 
 local Window = OrionLib:MakeWindow({Name = "Seanulator Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
+local Section = Tab:AddSection({
+	Name = "Section"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
 	Icon = "rbxassetid://4483345998",
